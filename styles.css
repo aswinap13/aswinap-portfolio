@@ -396,7 +396,7 @@ hr:last-of-type{
 
   /* Media Query */
 
-@media only screen and (max-width :768px) {
+@media only screen and (max-width: 768px) {
 
     /* Home Page */
     .navibar{
@@ -465,13 +465,16 @@ hr:last-of-type{
 
     .container .webDemoContent{
         margin: 1rem;
-        padding: 0rem;
         text-align: center;
         font-size: 0.7rem;
         left: 0px;
         padding: 0px;
+        width: 75%;
+        text-align: center;
     }
-
+    .container .webDemoContent p{
+        text-align: justify;
+    }
     .container .webDemoContent h3{
         font-size: 1.5rem;
         text-align: center;
@@ -494,7 +497,7 @@ hr:last-of-type{
         margin-bottom: 0px;
     }
     .aboutMenu{
-        width: 70%;
+        width: 90%;
         margin-left: 0px;
     }
     .contactMenu{        
@@ -548,6 +551,8 @@ hr:last-of-type{
         border-radius: 10px;
         font-size: 0.6rem;
         left: 0px;
+        width: 100% !important;
+        text-align: justify;
     }
     .container .webDemoContent h3{
         font-size: 1rem;
@@ -568,6 +573,8 @@ hr:last-of-type{
 .container .webDemoContent p{
     line-height: 0.8rem;
     letter-spacing: 1.5px;
+    width: 100% !important;
+    text-align: justify;
 }
 .webDemoContent .btn{
     width: 100px;
